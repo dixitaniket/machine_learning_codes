@@ -1,7 +1,7 @@
 # to code the fashion mnist dataset
 import tensorflow as tf
 import numpy as np
-(x_train,y_train),(x_test,y_test)=tf.keras.datasets.mnist.load_data()
+(x_train,y_train),(x_test,y_test)=tf.keras.datasets.fashion_mnist.load_data()
 #loading the dataset from the default libary in tensorflow 
 x_train=x_train.reshape(60000,28,28,1)
 x_test=x_test.reshape(10000,28,28,1)
