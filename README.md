@@ -15,3 +15,8 @@ and change it with
 (x_train,y_train),(x_test,y_test)=tf.keras.datasets.mnist.load_data()
 
 rest of the process remains the same as both these datasets are almost identical and thus not require much changes to be done in the model
+
+---------------------------------------------------------------------------------------------------------------------------
+The ImageClassifierCnn does the same work as the previous commit image classifier but instead of using dense layer, it utilises cnn which is better then the dense layers for problems like image classification.
+
+rest of the code like the data import using  the standard libraries are the same .
